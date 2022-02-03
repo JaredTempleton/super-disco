@@ -1,7 +1,7 @@
 # Work Day Scheduler Starter Code
 February 2022
 
-##Description
+# Description
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
