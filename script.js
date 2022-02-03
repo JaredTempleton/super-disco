@@ -12,7 +12,7 @@ $(document).ready(function () {
     function timeTracker() {
         var timeNow = moment().hour();
 
-        $("time-block").each(function () {
+        $(".time-block").each(function () {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
             if (blockTime < timeNow) {
