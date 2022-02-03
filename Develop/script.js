@@ -1,8 +1,8 @@
 var todaysDate = moment().format("dddd, MMM Do YYYY");
 $("#currentDay").html(todaysDate);
 
-$(document).ready(function ()) {
-    $(".savebtn").on("click, function" () {
+$(document).ready(function () {
+    $(".savebtn").on("click", function () {
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
@@ -20,7 +20,7 @@ $(document).ready(function ()) {
                 $(this).removeClass("present")
                 $(this).addClass("past")
             }
-            else if (block time === timeNow) {
+            else if (blockTime === timeNow) {
                 $(this).removeClass("past")
                 $(this).removeClass("future")
                 $(this).addClass("present")
